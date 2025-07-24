@@ -30,7 +30,7 @@ if (form.password !== form.confirmPassword){
 //send to back
 try {
   //ccode
-  const res = await axios.post('https://ecom2025-api2-byg1.vercel.app/api/register',form)
+  const res = await axios.post('https://ecom2025-api2.vercel.app//api/register',form)
   console.log(res.data)
   toast.success(res.data)
 } catch (err) {
